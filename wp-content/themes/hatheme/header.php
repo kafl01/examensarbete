@@ -11,7 +11,7 @@
 </head>
 
 <body class="container">
-    <header>
+    <header class="header-wrapper">
         <nav class="navbar">
             <div class="logo">
                 <a class="navbar-brand" href="#">
@@ -24,12 +24,17 @@
                     ?>
                     <img src="<?php echo $logo[0] ?>" alt="logo" /></a>
             </div>
-            <div class="navbar-menu">
+
+            <div class="right quarter">
+                <a class="toggle-nav" href="#">&#9776;</a>
+            </div> 
+            <div class="menu main">
                 <?php wp_nav_menu(
                     array(
                         'menu' => 'primary',
                         'container' => '',
                         'theme_location' => 'primary',
+                        'container_class' => 'main-nav',
                         'items_wrap' => '<ul class="nav-list">%3$s</ul>'
                     )
                 ); ?>

@@ -1,8 +1,8 @@
 <?php wp_footer(); ?>
 
-<nav class="navbar">
+<nav class="navbar-footer">
     <div id="contact">
-        <img src="<?php echo get_theme_file_uri('/images/Detalj av triumfbågen och den kvnnliga stifteren.jpeg') ?>">
+        <img src="<?php echo get_theme_file_uri('/images/Logo2.png') ?>">
         <p>Herman Andersson</p>
         <p>070-653 12 44</p>
         <p>herman.andersson@telia.com</p>
