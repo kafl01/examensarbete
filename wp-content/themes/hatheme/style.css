@@ -1,0 +1,55 @@
+/*
+Theme Name: HA Theme
+Author: Karin Flarup
+Description: HA Theme is designed for Herman Andersson website
+*/
+body {
+    background-color: #FDEEDC;
+    color: #113F8C;
+}
+
+p, a, span {
+        font-family: 'Roboto Slab', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Caveat', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: #113F8C;
+}
+
+a:hover {
+    color: #D97213;
+}
+
+.container {
+    max-width: 1640px;
+}
+
+/* Header */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5em;
+    row-gap: 1.5rem;
+    list-style: none;
+}
+
+/* Footer */
+.nav-list-footer {
+    display: flex;
+    flex-direction: column;
+    column-gap: 1.5em;
+    row-gap: 1.5rem;
+    list-style: none;
+}
