@@ -4,7 +4,7 @@ Author: Karin Flarup
 Description: HA Theme is designed for Herman Andersson website
 */
 body {
-    background-color: #FDEEDC;
+    background-color: #FFFBF9;
     color: #113F8C;
 }
 
@@ -31,11 +31,13 @@ a:hover {
 
 .main-wrapper {
     padding: 2rem;
+    background-color: #FDEEDC;
 }
 
 /* Header */
 .header-wrapper {
     padding: 2rem;
+    background-color: #FDEEDC;
 }
 
 .navbar {
