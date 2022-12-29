@@ -1,0 +1,107 @@
+/* Header */
+.header-wrapper {
+    padding: 2rem;
+    background-color: #FDEEDC;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.menu.main ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5em;
+    row-gap: 1.5rem;
+    list-style: none;
+}
+
+.toggle-nav {
+    display: none !important;
+}
+
+/* Footer */
+.navbar-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-color: #F1A661;
+    padding: 2rem;
+}
+
+.nav-list-footer {
+    display: flex;
+    flex-direction: column;
+    column-gap: 1.5em;
+    row-gap: 1.5rem;
+    list-style: none;
+}
+
+
+@media screen and ( max-width: 650px ) {
+    /* Header hamburger menu */
+    .toggle-nav {
+        display: inline-block !important;
+        margin: 25px;
+        font-size: 1.125rem;
+        transition: color linear 0.15s;
+	}
+		
+    a.toggle-nav:link, 
+	a.toggle-nav:visited,
+	a.toggle-nav:hover, 
+	a.toggle-nav:active {
+        text-decoration: none;
+        color: #113B8C;
+    } 
+
+    .menu.main {
+        position: relative;
+        background: #F1A661;
+        text-align: left;
+    }
+        
+    .menu.main ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        overflow: auto;
+        top: 0px;
+        right: 0px;
+        z-index: 999;
+        padding-right: 15px;
+        background: #F1A661;
+        padding-bottom: 1.5rem;
+    }
+        
+    .menu.main ul li {
+        float: none;
+        display: block;
+        position: relative;
+        top: 0px;
+        right: 0px;
+        min-width: 200px;
+        background: #F1A661;
+        text-align: right;
+        padding-top: 1.5rem;
+    }
+        
+    .main.menu li:after { 
+        content: none; 
+    }
+
+    /* Footer */
+    .navbar-footer {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .nav-list-footer {
+        padding-left: 0;
+    }
+    
+}
