@@ -20,18 +20,17 @@
                 'orderby' => 'name',
                 'order'   => 'ASC'
             ));
-
             foreach ($categories as $category) {
             ?>
-                <a class="cat-link-wrapper" href="<?php echo site_url() ?>/<?php echo $category->slug; ?>">
+            <?php
+                echo '<a class="cat-link-wrapper" href="' . get_category_link($category->term_id) . '">
                     <div class="frontpage-cat-img">
-                        <img alt='falsterbo kyrka målningar på altarskåpet' src="<?php echo get_theme_file_uri('/images/falsterbo kyrka målningar på altarskåpet.jpeg') ?>">
+                        <img alt=falsterbo kyrka målningar på altarskåpet src="' . get_theme_file_uri('/images/falsterbo kyrka målningar på altarskåpet.jpeg') . '">
                     </div>
-                    <p class="frontpage-cat-title"><?php echo $category->name; ?></p>
-                </a>
-            <?php } ?>
+                    <p class="frontpage-cat-title">' . $category->name . '</p></a>';
+            }
+            ?>
         </div>
-
     </section>
 </main>
 <?php get_footer(); ?>
