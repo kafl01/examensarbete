@@ -29,6 +29,7 @@ function hatheme_styles()
     wp_enqueue_style('hatheme-style', get_theme_file_uri('style.css'));
     wp_enqueue_style('hatheme-header-footer-style', get_theme_file_uri('styles/header-footer-style.css'));
     wp_enqueue_style('hatheme-frontpage-style', get_theme_file_uri('styles/frontpage-style.css'));
+    wp_enqueue_style('hatheme-archive-style', get_theme_file_uri('styles/archive-style.css'));
 }
 add_action('wp_enqueue_scripts', 'hatheme_styles');
 
