@@ -1,12 +1,3 @@
-.archive-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    column-gap: 2em;
-    background-color: #FFD8A9;
-    padding: 6em;
-}
-
 .archive-div {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -44,10 +35,6 @@
 }
 
 @media screen and ( max-width: 850px ) {
-    .archive-wrapper {
-        padding: 4em;
-    }
-
     .archive-div {
         grid-template-columns: auto auto;
     }
@@ -60,10 +47,6 @@
 @media screen and ( max-width: 650px ) {
     .archive-div {
         grid-template-columns: auto;
-    }
-
-    .archive-wrapper {
-        padding: 2em;
     }
 
     .archive-img {

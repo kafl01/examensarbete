@@ -11,10 +11,12 @@ body {
 p, a, span {
     font-family: 'Roboto Slab', serif;
     font-size: 1.125rem;
+    line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Caveat', cursive;
+    line-height: 1.6;
 }
 
 h1 {
@@ -24,6 +26,10 @@ h1 {
 
 h2 {
     font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
 }
 
 img {
@@ -51,16 +57,41 @@ a:hover {
     justify-content: center;
 }
 
+.section-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    column-gap: 2em;
+    background-color: #FFD8A9;
+    padding: 6em;
+}
+
 @media screen and ( max-width: 850px ) {
     h1 {
         font-size: 1.75rem;
     }
 
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
     p, a, span {
         font-size: 1rem;
+    }
+
+    .section-wrapper {
+        padding: 4em;
     }
 }
 
 @media screen and ( max-width: 650px ) {
+
+    .section-wrapper {
+        padding: 2em;
+    }
 
 }

@@ -1,3 +1,4 @@
+</main>
 <?php wp_footer(); ?>
 
 <nav class="navbar-footer">

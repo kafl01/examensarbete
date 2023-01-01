@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="archive-wrapper">
+<section class="section-wrapper">
     <h2 class="cat-heading">Våra kompetensområde</h2>
     <div class="archive-div">
         <?php if (have_posts()) :
@@ -13,8 +13,6 @@
                 </a>
         <?php
             endwhile;
-        else :
-            _e('Sorry, no pages matched your criteria.', 'textdomain');
         endif;
         ?>
     </div>

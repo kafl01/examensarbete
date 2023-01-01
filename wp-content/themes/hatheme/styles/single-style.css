@@ -1,0 +1,57 @@
+.single-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    column-gap: 2em;
+    background-color: #FFD8A9;
+    padding: 6em;
+}
+
+.wp-element-caption {
+    font-family: 'Roboto Slab';
+    font-style: italic;
+}
+
+figure {
+    width: 80%;
+}
+
+.single-div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5em;
+    padding: 2em 0em;
+}
+
+.single-img {
+    width: 25vw;
+    max-height: 60vh;
+    border: 7px solid #2F1C0B;
+    border-radius: 3px;
+    box-shadow: 10px 10px 20px #2f1c0c;
+}
+
+.single-excerpt {
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.single-excerpt > p {
+    font-family: 'Caveat', cursive;
+    font-size: 1.75rem;
+}
+
+.single-content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1em;
+}
+
+.single-content > ul > li{
+    margin-top: 0.5em;
+}
+
+.single-content > ul > li:first-child {
+    margin-top: 0;
+}

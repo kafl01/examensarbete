@@ -27,7 +27,7 @@
 
             <div class="right quarter">
                 <a class="toggle-nav" href="#">&#9776;</a>
-            </div> 
+            </div>
             <div class="menu main">
                 <?php wp_nav_menu(
                     array(
@@ -41,3 +41,4 @@
             </div>
         </nav>
     </header>
+    <main class="main-wrapper">
