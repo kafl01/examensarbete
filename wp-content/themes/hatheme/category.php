@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <section class="archive-wrapper">
     <h2 class="cat-heading"><?php single_cat_title('', true); ?></h2>
     <div class="archive-div">
@@ -19,5 +18,20 @@
         ?>
     </div>
 </section>
-
+<section class="frontpage-cat-wrapper">
+    <div class="frontpage-category-div">
+        <?php
+        $categories = get_categories(array(
+            'orderby' => 'name',
+            'order'   => 'ASC'
+        ));
+        foreach ($categories as $category) {
+        ?>
+        <?php
+            echo '<a class="cat-link-wrapper" href="' . get_category_link($category->term_id) . '">
+                    <button class="frontpage-cat-title btn-secondary">' . $category->name . '</button></a>';
+        }
+        ?>
+    </div>
+</section>
 <?php get_footer(); ?>
