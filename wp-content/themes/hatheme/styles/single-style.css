@@ -1,3 +1,4 @@
+/* Style for single.php, page.php and index.php */
 .single-wrapper {
     display: flex;
     flex-direction: column;
@@ -43,9 +44,9 @@ figure {
 }
 
 .single-content {
-        display: flex;
-        flex-direction: column;
-        row-gap: 1em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
 }
 
 .single-content > ul > li{
@@ -66,4 +67,13 @@ figure {
 
 .link-post > a {
     font-size: 1rem;
+}
+
+.page-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.page-img {
+    max-height: 60vh;
 }
