@@ -5,21 +5,14 @@
         while (have_posts()) : the_post();
     ?>
             <h2><?php the_title(); ?></h2>
-            <div class="single-div">
-                <div class="single-img">
-                    <img src="<?php the_post_thumbnail_url('thumbnail'); ?>">
+            <div class="page-div">
+                <div class="page-img">
+                    <?php echo ((has_post_thumbnail()) ? the_post_thumbnail() : '') ?>
                 </div>
             </div>
             <div class="single-content"><?php the_content(); ?></div>
-        <?php
-        endwhile;
-        if (is_single()) : ?>
-            <div class="link-post-wrapper">
-                <div class="link-post"><?php previous_post_link(); ?></div>
-                <div class="link-post"><?php next_post_link(); ?></div>
-            </div>
     <?php
-        endif;
+        endwhile;
     endif;
     ?>
 </section>
