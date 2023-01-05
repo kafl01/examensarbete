@@ -31,6 +31,7 @@ function hatheme_styles()
     wp_enqueue_style('hatheme-frontpage-style', get_theme_file_uri('styles/frontpage-style.css'));
     wp_enqueue_style('hatheme-archive-style', get_theme_file_uri('styles/archive-style.css'));
     wp_enqueue_style('hatheme-single-style', get_theme_file_uri('styles/single-style.css'));
+    wp_enqueue_style('hatheme-404-style', get_theme_file_uri('styles/style-404.css'));
 }
 add_action('wp_enqueue_scripts', 'hatheme_styles');
 
@@ -39,3 +40,17 @@ function ha_burger_menu_scripts()
     wp_enqueue_script('burger-menu-script', get_stylesheet_directory_uri() . '/scripts/burger-menu.js', array('jquery'));
 }
 add_action('wp_enqueue_scripts', 'ha_burger_menu_scripts');
+
+function custom_search_form($form)
+{
+    $form = '<form role="search" method="get" id="searchform" class="searchform" action="' . home_url('/') . '" >
+      <div class="custom-form">
+      <label class="screen-reader-text" for="s">' . __('Sök:') . '</label>
+      <input type="text" value="' . get_search_query() . '" name="s" id="searchfield" />
+      <input type="submit" id="searchsubmit" value="' . esc_attr__('Sök') . '" />
+    </div>
+    </form>';
+
+    return $form;
+}
+add_filter('get_search_form', 'custom_search_form', 40);
