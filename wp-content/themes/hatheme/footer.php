@@ -9,7 +9,7 @@
         <p>herman.andersson@telia.com</p>
     </div>
     <div>
-        <img src="<?php echo get_theme_file_uri('/images/pensil.jpeg') ?>">
+        <img src="<?php echo get_theme_file_uri('/images/pensil1.jpeg') ?>">
     </div>
     <div class="footer-nav">
         <?php wp_nav_menu(

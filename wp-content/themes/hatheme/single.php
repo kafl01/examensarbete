@@ -12,8 +12,15 @@
                 <div class="single-excerpt"><?php the_excerpt(); ?></div>
             </div>
             <div class="single-content"><?php the_content(); ?></div>
-    <?php
+        <?php
         endwhile;
+        if (is_single()) : ?>
+            <div class="link-post-wrapper">
+                <div class="link-post"><?php previous_post_link(); ?></div>
+                <div class="link-post"><?php next_post_link(); ?></div>
+            </div>
+    <?php
+        endif;
     endif;
     ?>
 </section>
