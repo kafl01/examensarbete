@@ -14,7 +14,7 @@
     <header class="header-wrapper">
         <nav class="navbar">
             <div class="logo">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href=<?php echo site_url(); ?>>
                     <?php
                     if (function_exists('the_custom_logo')) {
                         $custom_logo_id = get_theme_mod('custom_logo');

@@ -25,6 +25,10 @@
     row-gap: 3em;
 }
 
+.frontpage-hero-heading {
+    text-align: center;
+}
+
 .btn-primary {
     background-color: #D97213;
     padding: 1em;

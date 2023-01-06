@@ -4,7 +4,7 @@
         <img src="<?php echo get_theme_file_uri('/images/konsult.jpeg') ?>">
     </div>
     <div class="frontpage-hero-div-right">
-        <h1>Vi har lång erfarenhet inom målerikonservering och restaurering</h1>
+        <h1 class="frontpage-hero-heading">Vi har lång erfarenhet inom målerikonservering och restaurering</h1>
         <button class="btn-primary">Om företaget</button>
         <div class="frontpage-hero-img-right">
             <img src="<?php echo get_theme_file_uri('/images/lyngsjo_kyrka.jpeg') ?>">

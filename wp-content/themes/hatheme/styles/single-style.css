@@ -77,3 +77,19 @@ figure {
 .page-img {
     max-height: 60vh;
 }
+
+@media screen and ( max-width: 650px ) {
+    .single-div {
+        flex-direction: column;
+        padding: 0em;
+    }
+
+    .single-img {
+        width: 100%;
+        height: 25vh;
+    }
+
+    .single-excerpt {
+        width: 100%;
+    }
+}

@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <section class="section-wrapper">
-    <h2 class="cat-heading">Våra kompetensområde</h2>
+    <h1 class="cat-heading">Våra kompetensområde</h1>
     <div class="archive-div">
         <?php if (have_posts()) :
             while (have_posts()) : the_post(); ?>
@@ -9,7 +9,7 @@
                     <div class="archive-img">
                         <img src="<?php the_post_thumbnail_url('thumbnail'); ?>">
                     </div>
-                    <?php the_title('<p class="cat-title">', '</p>'); ?>
+                    <?php the_title('<h2 class="cat-title">', '</h2>'); ?>
                 </a>
         <?php
             endwhile;
