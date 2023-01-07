@@ -6,10 +6,11 @@ Description: HA Theme is designed for Herman Andersson website
 body {
     background-color: #FFFBF9;
     color: #113F8C;
+    font-family: 'Roboto Slab', serif;
 }
 
-p, a, span {
-    font-family: 'Roboto Slab', serif;
+p, a, span, li {
+    
     font-size: 1.125rem;
     line-height: 1.6;
 }
