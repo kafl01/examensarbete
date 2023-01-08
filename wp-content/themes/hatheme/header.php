@@ -12,7 +12,7 @@
 
 <body class="container">
     <header class="header-wrapper">
-        <nav class="navbar">
+        <nav class="navbar" id="up">
             <div class="logo">
                 <a class="navbar-brand" href=<?php echo site_url(); ?>>
                     <?php
