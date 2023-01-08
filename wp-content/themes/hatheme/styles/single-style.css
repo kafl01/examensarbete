@@ -1,4 +1,5 @@
 /* Style for single.php, page.php and index.php */
+
 .single-wrapper {
     display: flex;
     flex-direction: column;
@@ -78,23 +79,20 @@ figure {
     max-height: 60vh;
 }
 
-/* for competence page */
+/* For competence page (page-74.php) */
 .competence-heading-wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.competence-heading {
     display: flex;
     flex-direction: column;
 }
 
-.competence-img {
-    width: 40%;
-    border: 7px solid #2F1C0B;
-    border-radius: 3px;
-    box-shadow: 10px 10px 20px #2f1c0c;
+.competence-list {
+    padding-bottom: 6em;
+}
+
+@media screen and ( max-width: 850px ) {
+    .competence-list {
+        padding-bottom: 4em;
+    }
 }
 
 @media screen and ( max-width: 650px ) {
