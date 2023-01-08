@@ -89,6 +89,13 @@ figure {
     padding-bottom: 6em;
 }
 
+/* For reference page (page-82.php) */
+.reference-content > ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-bottom: 1em;
+}
+
 @media screen and ( max-width: 850px ) {
     .competence-list {
         padding-bottom: 4em;
@@ -109,4 +116,10 @@ figure {
     .single-excerpt {
         width: 100%;
     }
+
+    .reference-content > ul {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
 }

@@ -1,3 +1,4 @@
+<!-- Structure for the Competence area page, id 74  -->
 <?php get_header(); ?>
 <section class="section-wrapper">
     <div class="competence-heading-wrapper">

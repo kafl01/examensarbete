@@ -5,7 +5,7 @@
     </div>
     <div class="frontpage-hero-div-right">
         <h1 class="frontpage-hero-heading">Vi har lång erfarenhet inom målerikonservering och restaurering</h1>
-        <button class="btn-primary">Om företaget</button>
+        <button class="btn-primary"><a href="<?php echo get_permalink(77); ?>">Om företaget</a></button>
         <div class="frontpage-hero-img-right">
             <img src="<?php echo get_theme_file_uri('/images/lyngsjo_kyrka.jpeg') ?>">
         </div>
