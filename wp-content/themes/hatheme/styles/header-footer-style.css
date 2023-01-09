@@ -41,6 +41,24 @@
     list-style: none;
 }
 
+.contact-logo {
+    width: 30vw;
+}
+
+.footer-nav {
+    font-size: 0.875rem;
+    padding-bottom: 0.5em;
+}
+
+.footer-arrow {
+    padding-bottom: 1.125em;
+}
+
+@media screen and ( max-width: 850px ) {
+    .contact-logo {
+        width: 35vw;
+    }
+}
 
 @media screen and ( max-width: 650px ) {
     /* Header hamburger menu */
@@ -104,4 +122,7 @@
         padding-left: 0;
     }
     
+    .contact-logo {
+        width: 40vw;
+    }
 }
