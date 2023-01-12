@@ -1,6 +1,6 @@
 jQuery(document).ready(function () {
-  jQuery(".toggle-nav").click(function (e) {
-    jQuery(".menu.main ul").slideToggle(500);
+  jQuery(".menu-btn").click(function (e) {
+    jQuery(".nav-menu").toggleClass("open");
 
     e.preventDefault();
   });

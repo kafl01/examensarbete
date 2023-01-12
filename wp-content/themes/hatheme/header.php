@@ -19,16 +19,29 @@
                     if (function_exists('the_custom_logo')) {
                         $custom_logo_id = get_theme_mod('custom_logo');
                         $logo = wp_get_attachment_image_src($custom_logo_id);
-                        // print_r($logo);
                     }
                     ?>
                     <img src="<?php echo $logo[0] ?>" alt="logo" /></a>
             </div>
 
+            <!-- Hamburger menu -->
             <div class="right quarter">
-                <a class="toggle-nav" href="#">&#9776;</a>
+                <a class="menu-btn" href="#">&#9776;</a>
             </div>
-            <div class="menu main">
+            <div class="menu-burger-wrapper">
+                <?php wp_nav_menu(
+                    array(
+                        'menu' => 'primary',
+                        'container' => '',
+                        'theme_location' => 'primary',
+                        'container_class' => 'main-nav',
+                        'items_wrap' => '<ul class="nav-menu">%3$s</ul>'
+                    )
+                ); ?>
+            </div>
+
+            <!-- Menu for tablet and desktop -->
+            <div class="menu main ul">
                 <?php wp_nav_menu(
                     array(
                         'menu' => 'primary',
