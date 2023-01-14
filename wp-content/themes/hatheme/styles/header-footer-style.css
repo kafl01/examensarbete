@@ -40,6 +40,8 @@
     align-items: flex-end;
     background-color: #F1A661;
     padding: 2rem;
+    column-gap: 1rem;
+    row-gap: 1rem;
 }
 
 .nav-list-footer {

@@ -4,7 +4,7 @@
 <nav class="navbar-footer">
     <div id="contact">
         <div class="contact-logo">
-            <img src="<?php echo get_theme_file_uri('/images/Logo2_.png') ?>">
+            <img alt="Logotype Konservator Herman Andersson AB" src="<?php echo get_theme_file_uri('/images/Logo2_.png') ?>">
         </div>
         <p>Herman Andersson</p>
         <p>070-653 12 44</p>
@@ -18,7 +18,7 @@
     </div>
     <div>
         <div class="footer-arrow">
-            <a href="#up"><img src="<?php echo get_theme_file_uri('/images/straight-arrow.png') ?>"></a>
+            <a href="#up"><img alt="Pil som pekar uppåt" src="<?php echo get_theme_file_uri('/images/straight-arrow.png') ?>"></a>
         </div>
     </div>
 </nav>
