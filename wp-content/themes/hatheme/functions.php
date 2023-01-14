@@ -4,6 +4,7 @@ function setup_hatheme()
 {
     //add theme support
     add_theme_support(feature: 'post-thumbnails');
+    set_post_thumbnail_size(200, 200);
     add_theme_support(feature: 'automatic-feed-links');
     add_theme_support(feature: 'custom-logo');
     add_theme_support('html5', ['search-form', 'comment-form', 'comment-list', 'gallery', 'caption']);

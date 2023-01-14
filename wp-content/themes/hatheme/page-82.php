@@ -1,6 +1,6 @@
 <!-- Structure for the Reference page, id 82  -->
 <?php get_header(); ?>
-<section class="section-wrapper">
+<section class="section-wrapper align-unset">
     <?php
     if (have_posts()) :
         while (have_posts()) : the_post();

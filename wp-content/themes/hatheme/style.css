@@ -65,6 +65,11 @@ a:hover {
     column-gap: 2em;
     background-color: #FFD8A9;
     padding: 6em;
+    align-items: center;
+}
+
+.align-unset {
+    align-items: unset;
 }
 
 @media screen and ( max-width: 850px ) {

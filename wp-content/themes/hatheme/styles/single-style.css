@@ -15,7 +15,7 @@
 }
 
 figure {
-    width: 80%;
+    width: 70%;
 }
 
 .single-div {
@@ -87,8 +87,11 @@ figure {
 }
 
 .competence-list {
+    padding-top: 1rem;
     padding-bottom: 6rem;
 }
+
+/* For reference page (page-82.php) */
 
 .reference-content {
     display: flex;
@@ -96,7 +99,6 @@ figure {
     row-gap: 1rem;
 }
 
-/* For reference page (page-82.php) */
 .reference-content > ul {
     display: grid;
     grid-template-columns: auto auto auto;
