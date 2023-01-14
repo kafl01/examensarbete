@@ -4,6 +4,10 @@
     background-color: #FDEEDC;
 }
 
+.logo {
+    height: 20vh;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -21,11 +25,11 @@
 
 /*Hamburger menu */
 .menu-btn {
-    display: none !important;
+    display: none;
 }
 
 .nav-menu {
-    display: none !important;
+    display: none;
 }
 
 /* Footer */
@@ -143,7 +147,11 @@
         width: 40vw;
     }
 
-    #contact, .footer-nav {
+    #contact {
+        padding-bottom: 1rem;
+    }
+
+    .footer-nav {
         padding-bottom: 1rem;
     }
 

@@ -126,8 +126,12 @@
         width: 100%;
     }
 
-    .frontpage-hero-heading, .btn-primary {
+    .frontpage-hero-heading {
         padding-bottom: 1rem;
+    }
+
+    .frontpage-hero-img-right {
+        padding-top: 1rem;
     }
 
     .frontpage-category-div {
