@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
 <section class="section-wrapper">
-    <h1 class="cat-heading">Våra kompetensområde</h1>
     <div class="archive-div">
         <?php if (have_posts()) :
             while (have_posts()) : the_post(); ?>

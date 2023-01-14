@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <section class="frontpage-hero-wrapper">
     <div class="frontpage-hero-img-left">
-        <img src="<?php echo get_theme_file_uri('/images/konsult.jpeg') ?>">
+        <img src="<?php echo get_theme_file_uri('/images/konsult1.jpeg') ?>">
     </div>
     <div class="frontpage-hero-div-right">
         <h1 class="frontpage-hero-heading">Vi har lång erfarenhet inom målerikonservering och restaurering</h1>
@@ -24,7 +24,7 @@
         <?php
             echo '<a class="cat-link-wrapper" href="' . get_category_link($category->term_id) . '">
                     <div class="frontpage-cat-img">
-                        <img alt=falsterbo kyrka målningar på altarskåpet src="' . get_theme_file_uri('/images/falsterbo kyrka målningar på altarskåpet.jpeg') . '">
+                        <img alt=falsterbo kyrka målningar på altarskåpet src="' . get_theme_file_uri('/images/falsterbo_kyrka.jpeg') . '">
                     </div>
                     <p class="frontpage-cat-title">' . $category->name . '</p></a>';
         }

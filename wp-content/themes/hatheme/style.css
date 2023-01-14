@@ -3,8 +3,17 @@ Theme Name: HA Theme
 Author: Karin Flarup
 Description: HA Theme is designed for Herman Andersson website
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #FFFBF9;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FFD8A9;
     color: #113F8C;
     font-family: 'Roboto Slab', serif;
     font-size: 1.125rem;
@@ -41,10 +50,6 @@ a {
 
 a:hover {
     color: #D97213;
-}
-
-.container {
-    max-width: 1640px;
 }
 
 .main-wrapper {

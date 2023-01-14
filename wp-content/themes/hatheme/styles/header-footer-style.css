@@ -4,6 +4,10 @@
     background-color: #FDEEDC;
 }
 
+.logo {
+    height: 20vh;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;

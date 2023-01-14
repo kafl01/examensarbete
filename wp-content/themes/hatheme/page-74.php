@@ -21,7 +21,7 @@
         <?php
             echo '<a class="cat-link-wrapper" href="' . get_category_link($category->term_id) . '">
                     <div class="frontpage-cat-img">
-                        <img alt=falsterbo kyrka målningar på altarskåpet src="' . get_theme_file_uri('/images/falsterbo kyrka målningar på altarskåpet.jpeg') . '">
+                        <img alt=falsterbo kyrka målningar på altarskåpet src="' . get_theme_file_uri('/images/falsterbo_kyrka.jpeg') . '">
                     </div>
                     <p class="frontpage-cat-title">' . $category->name . '</p></a>';
         }

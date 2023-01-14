@@ -10,7 +10,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body class="container">
+<body>
     <header class="header-wrapper">
         <nav class="navbar" id="up">
             <div class="logo">
