@@ -13,17 +13,18 @@ Description: HA Theme is designed for Herman Andersson website
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: #FFD8A9;
+    background-color: #FDEEDC;
     color: #113F8C;
     font-family: 'Roboto Slab', serif;
-    font-size: 1.125rem;
     line-height: 1.6;
+    font-size: 1,125rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Caveat', cursive;
     line-height: 1.6;
 }
+
 
 h1 {
     font-size: 2.25rem;
@@ -96,6 +97,10 @@ a:hover {
 
 @media screen and ( max-width: 650px ) {
 
+    p, a, span, li {
+        font-size: 1rem;
+    }
+
     .section-wrapper {
         padding: 2em;
     }
@@ -109,4 +114,5 @@ a:hover {
         width: 100%;
     }
 
+    
 }
