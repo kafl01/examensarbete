@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="section-wrapper">
+<section class="section-wrapper align-unset">
     <h1>Din sökning gav följande resultat:</h1>
     <div class="search-div">
         <?php if (have_posts()) :
